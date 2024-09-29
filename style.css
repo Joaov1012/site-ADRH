@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2a7de1;
+}
+
+.intro {
+    padding: 40px;
+    background-color: #e9f7fe;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #007acc;
+}
+
+.symptoms-form {
+    padding: 20px;
+    text-align: center;
+}
+
+.symptoms-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.symptoms-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.symptoms-form button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.appointment {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.appointment button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
